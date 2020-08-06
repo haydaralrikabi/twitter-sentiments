@@ -9,13 +9,14 @@ This project uses two libraries:
 - `tweetpy`: to connect to the Twitter API.
 - `textblob`: to parse the info returned with each tweet.
 
-## Customising The Data
+## Customising The Code
 
-To amend the topic that you woud like to search for its sentiments in Twitter, edit the following string used in this variable:
-
-```
-publicTweets = api.search('Trump')
-```
+1. Create a [Twitter Developer account](https://developer.twitter.com).
+2. Create a new app there.
+3. Copy the new app's credentials and paste them in their related variables in this code:
+   `apiKey`, `apiSecretKey`, `accessToken`, and `accessTokenSecret`.
+4. To amend the topic that you woud like to search for its sentiments in Twitter, edit the following string used in this variable:
+   `publicTweets = api.search('Trump')`
 
 ## How To Run
 
