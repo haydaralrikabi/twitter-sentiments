@@ -39,5 +39,3 @@ Tweet text
 Emoji
 Line separator
 ```
-
-.
