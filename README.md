@@ -40,3 +40,4 @@ Emoji
 Line separator
 ```
 
+.
